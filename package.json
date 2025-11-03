@@ -1,0 +1,39 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "biome:fix": "biome check --apply ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/mongodb": "^4.0.7",
+    "@types/node": "^20.12.4",
+    "mongodb": "^6.12.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@sendgrid/mail": "^8.1.4",
+    "axios": "^1.9.0",
+    "crypto": "^1.0.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "googleapis": "^149.0.0",
+    "htmlparser2": "^10.0.0",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "mongoose": "^8.3.0",
+    "openai": "^5.8.2",
+    "puppeteer": "^24.14.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
