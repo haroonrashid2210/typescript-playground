@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true
+  },
+  "include": ["src/**/*.ts", "src/generate-rndm-plaid-cat.js", "src/replace-pin.js", "src/wordle-solver/index.js"],
+  "exclude": ["node_modules"]
+}

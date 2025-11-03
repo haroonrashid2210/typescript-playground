@@ -1,0 +1,35 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "ignore": ["dist/**"]
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "useImportType": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noConsoleLog": "off"
+      },
+      "correctness": {
+        "noUnusedImports": "error"
+      }
+    }
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 120
+  }
+}
